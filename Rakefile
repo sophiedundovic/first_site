@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FirstSite::Application.load_tasks
+Sponantics::Application.load_tasks

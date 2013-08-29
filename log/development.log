@@ -2060,3 +2060,41 @@ Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-27 18:34:14 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-27 18:34:14 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 18:51:18 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-27 20:05:05 +0100
