@@ -2703,3 +2703,21 @@ Started GET "/" for 127.0.0.1 at 2013-08-29 20:12:12 +0100
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
 Completed 200 OK in 58ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-29 20:51:07 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-29 20:51:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 21:22:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 21:23:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 21:26:58 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-30 20:39:16 +0100
