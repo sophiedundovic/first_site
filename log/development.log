@@ -3651,3 +3651,351 @@ Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loa
   Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
   Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 146ms (Views: 94.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:34 +0100
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-30 23:49:38 +0100
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:39 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-30 23:49:42 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-30 23:49:43 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:16:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 162ms (Views: 75.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 11:16:20 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:16:22 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:16:30 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:16:52 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:16:58 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:02 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:05 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:08 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:12 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:20 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 11:17:27 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 12:43:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 133ms (Views: 65.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:26 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 12:43:29 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 23:04:00 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 136ms (Views: 70.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:01 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 23:04:04 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:04 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 23:04:08 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:08 +0100
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:08 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 23:04:13 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:13 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:13 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-08-31 23:04:17 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-31 23:04:17 +0100
