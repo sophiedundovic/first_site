@@ -19,7 +19,7 @@ class ActivitiesController < ApplicationController
   end
 
   def show_random
-    @activities = Activity.all[rand(Activity.count)]
+    @activity = Activity.all[rand(Activity.count)]
     render :show
   end
 

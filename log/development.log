@@ -4512,3 +4512,52 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-08 14:28:33 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-08 14:28:33 +0100
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-09-08 14:39:23 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     5: 
+     6: <div class="activities-box">
+     7: <h1>
+     8:   <%= @activity.name %>
+     9: </h1>
+    10: 
+    11: <!--<p>
+  app/views/activities/show.html.erb:8:in `_app_views_activities_show_html_erb__3279693555973165377_70184787508840'
+  app/controllers/activities_controller.rb:23:in `show_random'
+
+
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.7ms)
+
+
+Started GET "/activities/random" for 127.0.0.1 at 2013-09-08 14:39:27 +0100
+Processing by ActivitiesController#show_random as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     5: 
+     6: <div class="activities-box">
+     7: <h1>
+     8:   <%= @activity.name %>
+     9: </h1>
+    10: 
+    11: <!--<p>
+  app/views/activities/show.html.erb:8:in `_app_views_activities_show_html_erb__3279693555973165377_70184787508840'
+  app/controllers/activities_controller.rb:23:in `show_random'
+
+
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Sophie/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.7ms)
