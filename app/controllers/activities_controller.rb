@@ -15,11 +15,11 @@ class ActivitiesController < ApplicationController
   # GET /activities/1
   # GET /activities/1.json
   def show
-    render :show 
+   
   end
 
   def show_random
-    @activity = Activity.all[rand(Activity.count)]
+    @activities = Activity.all[rand(Activity.count)]
     render :show
   end
 
